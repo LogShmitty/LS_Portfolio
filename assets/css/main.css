@@ -1291,12 +1291,20 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
-			line-height: 5.5rem;
+			width: 7rem;
+			height: 7rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
+			display: flex; /* Enable Flexbox */
+			align-items: center; /* Vertically center children */
+			justify-content: center; /* Horizontally center children */
 		}
+
+			#header .logo-icon {
+				width: 5rem;
+				height: auto;
+				display: block;
+			}
 
 			#header .logo .icon:before {
 				font-size: 2rem;
